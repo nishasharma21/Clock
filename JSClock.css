@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(to left,aqua, lightgreen);
+}
+.clock{
+    position:absolute;
+    top:45%;
+    left:35%;
+    transition: translateX(-50%)translateY(-50%);
+    color:black;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    border: 1px double black;
+    border-width: 5px;
+    border-radius:5px;
+    padding-left: 10px;
+}
+.time{
+    position:absolute;
+    top:51%;
+    left:45%;
+    font-style: italic;
+    font-size: 35px;
+    font-family: Orbitron;
+}
